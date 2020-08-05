@@ -103,13 +103,13 @@ private:
     timer_callback callbacks[MAX_TIMERS];
 
     // delay values
-    long delays[MAX_TIMERS];
+    unsigned long delays[MAX_TIMERS];
 
     // number of runs to be executed for each timer
-    int maxNumRuns[MAX_TIMERS];
+    unsigned int maxNumRuns[MAX_TIMERS];
 
     // number of executed runs for each timer
-    int numRuns[MAX_TIMERS];
+    unsigned int numRuns[MAX_TIMERS];
 
     // which timers are enabled
     boolean enabled[MAX_TIMERS];
